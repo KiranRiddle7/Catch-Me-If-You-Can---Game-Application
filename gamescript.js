@@ -35,12 +35,18 @@
 		   							 smileImage.setAttribute("src", "images/penguin.png");
 		   							 }
 		   							 if (check==6) {
-		   							 smileImage.setAttribute("src", "images/bird.png");
+		   							 smileImage.setAttribute("src", "images/turtle.png");
 		   							 }
 		   							 if (check==7) {
-		   							 smileImage.setAttribute("src", "images/chicken.png");
+		   							 smileImage.setAttribute("src", "images/bird.png");
 		   							 }
 		   							 if (check==8) {
+		   							 smileImage.setAttribute("src", "images/chicken.png");
+		   							 }
+		   							 if (check==9) {
+		   							 smileImage.setAttribute("src", "images/shark.png");
+		   							 }
+		   							 if (check==10) {
 		   							 smileImage.setAttribute("src", "images/Elephant.png");
 		   							 }
 
@@ -69,7 +75,7 @@
 
 							        
 
-							        if (level<8) {
+							        if (level<10) {
 							        event.stopPropagation(); 
 							        numberofFaces += 5;
 							        check++;

@@ -7,7 +7,7 @@
 		 			#leftSide {
 		 					
 		 				position: absolute;
-		 				width: 500px;
+		 				width: 600px;
 		 				height: 500px;
 		 				text-align: center;
 		 				 
@@ -20,7 +20,7 @@
 		 			#rightSide {
 		 				
 		 				position: absolute;
-		 				width: 500px;
+		 				width: 600px;
 		 				height: 500px;
 		 				left: 500px; 
 		 				text-align: center;
