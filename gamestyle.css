@@ -38,12 +38,13 @@
 		 			#currentLevel {
 		 				padding-left: 460px;
 		 				font-weight: bold;
-		 				color: blue;
+		 				color:  #00b359;
 		 				
 		 			}
 
 		 			h1 {
 		 				text-align: center;
+		 				color:  #0073e6;
 		 			}
 
 		 			#instructions {

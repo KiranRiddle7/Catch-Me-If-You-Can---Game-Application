@@ -9,7 +9,7 @@
 		 			function faceGeneration() {
 
 		 						var theScore = document.getElementById("scoreDisplay");
-								theScore.firstChild.data = "Your Score Is: " +score;
+								theScore.firstChild.data = "Your Score: " +score;
 							
 								var currentLevel = document.getElementById("currentLevel");
 								currentLevel.firstChild.data = "Level: " +level;
