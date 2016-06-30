@@ -1,0 +1,32 @@
+
+				
+		 			.img {
+		 				position: absolute;
+		 			}	
+
+		 			#leftSide {
+		 					
+		 				position: absolute;
+		 				width: 500px;
+		 				height: 500px;
+		 				 
+		 			}
+
+		 			#leftSide > img {
+		 				position: absolute;
+		 			}
+
+		 			#rightSide {
+		 				
+		 				position: absolute;
+		 				width: 500px;
+		 				height: 500px;
+		 				left: 500px; 
+		 				
+           			    border-left: 4px solid black;
+		 			}
+
+		 			#scoreDisplay {
+		 				text-align: center;
+		 				font-weight: bold;
+		 			}
