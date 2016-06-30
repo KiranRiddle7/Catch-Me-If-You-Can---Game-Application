@@ -1,5 +1,5 @@
 
-				
+                     
 		 			.img {
 		 				position: absolute;
 		 			}	
@@ -9,6 +9,7 @@
 		 				position: absolute;
 		 				width: 500px;
 		 				height: 500px;
+		 				text-align: center;
 		 				 
 		 			}
 
@@ -22,11 +23,34 @@
 		 				width: 500px;
 		 				height: 500px;
 		 				left: 500px; 
-		 				
+		 				text-align: center;
            			    border-left: 4px solid black;
 		 			}
 
 		 			#scoreDisplay {
 		 				text-align: center;
+		 				font-weight: bold;
+		 				padding-top: 550px;
+
+
+		 			}
+
+		 			#currentLevel {
+		 				padding-left: 460px;
+		 				font-weight: bold;
+		 				color: blue;
+		 				
+		 			}
+
+		 			h1 {
+		 				text-align: center;
+		 			}
+
+		 			#instructions {
+		 				font-weight: bold;
+		 			}
+
+		 			#note {
+		 				color: red;
 		 				font-weight: bold;
 		 			}

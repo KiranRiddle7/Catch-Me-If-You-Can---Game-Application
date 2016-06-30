@@ -2,6 +2,7 @@
 		 			    numberofFaces = 5;
 		 			    check=1;
 		 			    score = 0;
+		 			    level = 1;
 		 			    
 		 				leftDiv = document.getElementById("leftSide");
 		 				rightDiv = document.getElementById("rightSide");
@@ -9,6 +10,9 @@
 
 		 						var theScore = document.getElementById("scoreDisplay");
 								theScore.firstChild.data = "Your Score Is: " +score;
+							
+								var currentLevel = document.getElementById("currentLevel");
+								currentLevel.firstChild.data = "Level: " +level;
 
 				 				for (var i = 0; i < numberofFaces; i++) 
 
@@ -64,10 +68,22 @@
 							   leftDiv.lastChild.onclick = function nextLevel(event){
 
 							        
+
+							        if (level<8) {
 							        event.stopPropagation(); 
 							        numberofFaces += 5;
 							        check++;
-							        score++;
+							        if(level<2)
+							        {
+							        	score += 5; 
+							        }
+							        else
+							        {
+							           score *=  2;
+
+							        }
+							       
+							        level++;
                                     while(leftDiv.firstChild)
                                     {
                                     	temp = leftDiv.lastChild;
@@ -80,6 +96,11 @@
                                     }
 
 							        faceGeneration();
+							        }
+
+							        else {
+							        	alert("Woah.!! You have exceptional observational skills. That's all we have. Well played..!! Cheers :D")
+							        }
 
 								}; 
 							
